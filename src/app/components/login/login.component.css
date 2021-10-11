@@ -1,0 +1,33 @@
+.appName {
+    font-family: 'Brush Script MT', cursive;
+  }
+
+input{
+    border: 2px solid;
+    background-color: rgba(255,255,255,0);
+    border-radius: 12px;
+    border-color: grey;
+    size:3px;
+    margin-left: 10px;
+    width: 50%;
+}
+
+label{
+    color: #1E90FF;
+}
+
+form{
+    padding:12px;
+}
+
+#submitButton{
+    margin: 25px;
+    width: 40%;
+} 
+
+img {
+    display: block;
+    max-width: 10%;
+    height: auto;
+  }
+
