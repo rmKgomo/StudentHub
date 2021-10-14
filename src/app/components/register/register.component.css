@@ -1,0 +1,30 @@
+.register {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #1E90FF;
+}
+
+.form-group {
+border-radius: 25px;
+border-color: none;
+border-bottom-color: #1E90FF;
+border-top-color: #1E90FF;
+}
+
+.fa.fa-user {
+    padding-right: 5px;
+}
+
+.fa.fa-mobile {
+    padding-right: 5px;  
+}
+
+.fa.fa-envelope {
+    padding-right: 5px;
+}
+
+.fa.fa-lock {
+    padding-right: 5px;
+}
+

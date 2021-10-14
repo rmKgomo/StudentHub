@@ -32,7 +32,9 @@ export class LoginComponent implements OnInit {
     this.router.navigate(['/register'])
   }
 
-
+loginRoute() {
+  this.router.navigate(['/home'])
+}
 
   login(){
     this.successMessage="Successfully Loggined In..."

@@ -1,4 +1,5 @@
-<h1 class="appName" align="center"></h1>
+<!-- <h1 class="appName" align="center">Login</h1> -->
+<img src="assets/logo.png">
 
 <div class="container-fluid" align="center">
     <div class="row">
@@ -20,13 +21,13 @@
 
 
                 <div class="text-center">
-                    <button id="submitButton" type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Login</button>
+                    <button id="submitButton" type="submit" class="btn btn-primary" [disabled]="!loginForm.valid" routerLink="/home">Login</button>
                 </div>
 
                 <div class="text-center text-success" *ngIf="successMessage">{{successMessage}}</div>
 
                 <div>
-                    <label for="inputState">Not yet Registered? | </label>
+                    <label for="inputState" class="notyet">Not yet Registered? | </label>
                     <button type="button" class="btn btn-link" (click)="registerRoute()">Register</button>
                 </div>
 

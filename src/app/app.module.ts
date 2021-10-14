@@ -12,6 +12,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { CovidComponent } from './components/covid/covid.component';
+import { SettingsComponent } from './components/settings/settings.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { InboxComponent } from './components/inbox/inbox.component';
+import { AcademicReportsComponent } from './components/academic-reports/academic-reports.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +25,13 @@ import { RegisterComponent } from './components/register/register.component';
     HomeComponent,
     NavbarComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    CovidComponent,
+    SettingsComponent,
+    ProfileComponent,
+    InboxComponent,
+    AcademicReportsComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
